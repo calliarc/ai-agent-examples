@@ -2,9 +2,10 @@
 
 Practical AI agents for retail, real estate and manufacturing.
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![CI](https://github.com/calliarc/ai-agent-examples/actions/workflows/ci.yml/badge.svg)](https://github.com/calliarc/ai-agent-examples/actions/workflows/ci.yml)
-![Version: 0.1.0](https://img.shields.io/badge/version-0.1.0-blue)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Release](https://img.shields.io/github/v/release/calliarc/ai-agent-examples?include_prereleases&sort=semver)](https://github.com/calliarc/ai-agent-examples/releases)
+[![Built by CalliArc](https://img.shields.io/badge/built%20by-CalliArc-0a66c2)](https://www.calliarc.com/)
 
 > **Status:** v0.1.0, first working release. All three examples run offline with a mock model and against real LLM providers.
 
@@ -112,6 +113,10 @@ Have an idea? [Open an issue](https://github.com/calliarc/ai-agent-examples/issu
 ## Contributing
 
 Contributions are welcome. See [CONTRIBUTING.md](CONTRIBUTING.md).
+
+## Changelog
+
+See [CHANGELOG.md](CHANGELOG.md).
 
 ## License
 

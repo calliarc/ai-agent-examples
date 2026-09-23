@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Report a security vulnerability
+    url: https://github.com/calliarc/ai-agent-examples/security/advisories/new
+    about: Please report security issues privately, not as public issues.
+  - name: Work with CalliArc
+    url: https://www.calliarc.com/
+    about: Need help implementing this for your business? Talk to our team.
