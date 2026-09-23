@@ -1,0 +1,9 @@
+sku,supplier,lead_time_days,lead_time_std_days,min_order_qty,pack_size
+SKU-1001,Highland Roasters (fictional),10,2.0,50,10
+SKU-1002,Northfield Dairy Alt (fictional),5,1.0,120,12
+SKU-1003,BlueRiver Goods (fictional),21,4.0,48,24
+SKU-1004,GreenLeaf Supply (fictional),14,3.0,100,25
+SKU-1005,Forge & Co (fictional),30,6.0,12,6
+SKU-1006,Brightline Imports (fictional),25,5.0,20,10
+SKU-1007,Clearspring Beverages (fictional),4,1.0,60,12
+SKU-1008,BlueRiver Goods (fictional),21,4.0,20,10

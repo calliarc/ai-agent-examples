@@ -1,0 +1,55 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "calliarc-ai-agent-examples"
+version = "0.1.0"
+description = "Practical, provider-agnostic AI agent examples for retail, real estate and manufacturing."
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "CalliArc" }]
+requires-python = ">=3.10"
+dependencies = [
+    "pydantic>=2.6,<3",
+    "httpx>=0.27,<1",
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "ruff>=0.5"]
+
+[project.urls]
+Homepage = "https://www.calliarc.com/"
+Repository = "https://github.com/calliarc/ai-agent-examples"
+Issues = "https://github.com/calliarc/ai-agent-examples/issues"
+
+[tool.setuptools.packages.find]
+include = ["common*", "examples*"]
+exclude = ["*.tests*"]
+
+[tool.setuptools.package-data]
+"examples.retail_inventory" = ["data/*.csv"]
+"examples.real_estate_listings" = ["data/*.json"]
+"examples.manufacturing_maintenance" = ["data/*.txt", "data/*.csv"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests", "examples"]
+pythonpath = ["."]
+addopts = "-q --import-mode=importlib"
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B", "UP"]
+ignore = ["B008"]

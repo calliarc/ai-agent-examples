@@ -1,0 +1,7 @@
+machine_id,machine_type,line,install_year
+PRESS-01,hydraulic press,Line A,2016
+PRESS-02,hydraulic press,Line A,2011
+CNC-01,cnc mill,Line B,2019
+CNC-03,cnc mill,Line B,2014
+CONV-01,conveyor,Line A,2018
+WELD-02,robotic welder,Line C,2020

@@ -1,0 +1,9 @@
+sku,name,on_hand,on_order,unit_cost
+SKU-1001,Organic Coffee Beans 1kg,180,0,11.20
+SKU-1002,Oat Milk 1L,260,200,1.10
+SKU-1003,Reusable Water Bottle,140,0,6.50
+SKU-1004,Bamboo Toothbrush 4-pack,310,0,2.40
+SKU-1005,Cast Iron Skillet 26cm,9,0,18.00
+SKU-1006,LED Desk Lamp,22,40,14.75
+SKU-1007,Sparkling Water 12-pack,150,0,4.30
+SKU-1008,Yoga Mat,75,0,9.90
